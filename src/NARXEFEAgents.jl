@@ -6,6 +6,9 @@ using Distributions
 using SpecialFunctions
 using LinearAlgebra
 
+using .location_scale_tdist
+using .mv_normal_gamma
+
 export NARXEFEAgent, update!, predictions, posterior_predictive, pol, crossentropy, mutualinfo,
     minimizeEFE, backshift, update_goals!, EFE, EFE_balance
 
